@@ -1,0 +1,114 @@
+body {
+  /* background: #fefae0; */
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* nav {
+  background: #fefae0;
+} */
+.cards {
+  text-align: center;
+  margin: 1%;
+}
+.card {
+  /* background: #f4a261; */
+  width: 30%;
+  margin: 1rem auto;
+  padding: 1% 2%;
+}
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+h5 {
+  font-size: 1.5vw;
+  margin-bottom: 4%;
+  border-radius: 5px;
+}
+
+#recipe {
+  margin-top: 2%;
+  border: none;
+  color: orange;
+  background: none;
+  border: 1px solid orange;
+  font-size: 1.5vw;
+}
+#recipe:hover {
+  background: orange;
+  color: white;
+}
+#btn {
+  color: orange;
+  border-color: orange;
+}
+
+#btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.nav-item a {
+  color: orange;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #0a58ca;
+  margin: auto 2rem;
+  font-weight: bolder;
+}
+
+.meal-recipe {
+  text-align: center;
+}
+
+.dishName {
+  margin: 2rem;
+}
+
+.meal-recipe .dish {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+.dish-img {
+  width: 40%;
+}
+.dish-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.dish .text-area {
+  width: 50%;
+}
+.dish {
+  text-align: justify;
+}
+.dish p {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1vw;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#print-btn {
+  background: orange;
+  border: none;
+  font-size: 1.2vw;
+  width: 8vw;
+}
+
+#print-btn:hover {
+  background: white;
+  color: orange;
+  border: 0.5px solid orange;
+}
